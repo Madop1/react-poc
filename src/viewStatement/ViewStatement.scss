@@ -1,0 +1,14 @@
+$primary-color: blue;
+
+.viewstatement {
+    display: flex;
+}
+
+.content {
+    color: $primary-color;
+    margin: 0 10px;
+}
+
+.content :hover {
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+$primary-color: blue;
+
+.statementInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding: 10px;
+}
+
+.statementInfo-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statementInfo-body {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.statementInfoBody {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statementInfoBody-subhead {
+  display: flex;
+  gap: 5%;
+  width: 50%;
+}
+
+.statementInfo-content {
+  display: flex;
+}
+
+.statementInfo-reward {
+  color: $primary-color;
+}
+
+.reward-content {
+    border:none;
+    background-color:white;
+    font-size:15px;
+    color:$primary-color;
+}
